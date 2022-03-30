@@ -108,7 +108,7 @@ class buidUserItem extends StatelessWidget
                 children: [
                   Padding(
                     padding: const EdgeInsets.only(bottom: 8),
-                    child: Text(user.firstname + " " + user.lastname, style: const TextStyle(
+                    child: Text(user.firstname + " " + user.lastname.toUpperCase(), style: const TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold
                     ),),

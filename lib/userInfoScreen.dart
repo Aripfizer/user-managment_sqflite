@@ -37,7 +37,7 @@ class UserInfoScreen extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                    Text(user.lastname, style: const TextStyle(
+                    Text(user.lastname.toUpperCase(), style: const TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold
                     )),
